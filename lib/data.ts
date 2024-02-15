@@ -64,7 +64,25 @@ export const experiencesData = [
     description:
       "My stack includes React, JavaScript, Redux, TypeScript, Tailwind, React Native and Ionic Framework.   I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "06/2023 - present",
+    date: "06/2023 - 12/2023",
+  },
+  {
+    title: "FullStack Developer",
+    location: "TechVastra",
+    Workp1:
+      " 1. As a founding member of the company, I play a pivotal role in the development of our B2B app. With a primary focus on Frontend development.",
+    workp1link: "",
+    Workp2:
+      " 2. I've taken on the responsibility of creating a seamless and user-friendly interface. Leveraging my expertise in technologies such as ReactJS and React Native, I have successfully crafted the client-side of our application.",
+    workp2link: "",
+    Workp3:
+      " 3. In addition to my frontend responsibilities, I've actively contributed to the Backend development using technologies like MongoDB and Express.",
+    workp3link: "",
+
+    description:
+      "My stack includes React, JavaScript, Redux, TypeScript, Tailwind, React Native, Node.Js, express and MongoDb.   I'm open to full-time opportunities.",
+    icon: React.createElement(FaReact),
+    date: "12/2023 - present",
   },
 ] as const;
 
@@ -114,7 +132,13 @@ export const Frontend = [
   "Ionic Framework",
 ] as const;
 
-export const Backend = ["Express", "Node.js"] as const;
+export const Backend = [
+  "Express",
+  "Node.js",
+  "MongoDB",
+  "Postgres",
+  "Prisma",
+] as const;
 
 export const Blockchain = [
   "Solidity",

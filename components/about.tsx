@@ -27,14 +27,14 @@ export default function About() {
         </span>
         {" "}with a passion for technology and innovation, specializing in{" "}
         <span className="font-medium">
-          Frontend Development
+          FullStack Development
         </span>
         .{" "}
         <span className="italic">
           My journey has equipped me with a strong foundation in
         </span>{" "}
         computer science, programming languages, and the principles of
-        web development. As <span className="underline">Frontend Developer</span> I
+        web development. As <span className="underline">FullStack Developer</span> I
         excel in creating engaging user interfaces , and ensuring a seamless user experience.
       </p>
 
