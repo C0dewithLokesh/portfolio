@@ -1,6 +1,7 @@
 import Chat from "@/assets/portfolio/Chat-app.png";
 import Dashboard from "@/assets/portfolio/dashboard.png";
 import Movie from "@/assets/portfolio/Movie.png";
+import Stitch from "@/assets/portfolio/stitch.png";
 import React from "react";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
@@ -87,6 +88,25 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Stitch Success",
+    description:
+      "Developed a mobile app using React Native for tailors to manage their businesses, focusing on designing the user interface and overseeing the app’s launch on platforms such as Google Play and Apple App Store.",
+    tags: [
+      "React Native",
+      "Typescript",
+      "Tailwind",
+      "Express",
+      "MongoDB",
+      "AWS",
+    ],
+    imageUrl: Stitch,
+    live: "https://play.google.com/store/apps/details?id=com.stitchsuccessapp",
+    Github:
+      "https://play.google.com/store/apps/details?id=com.stitchsuccessapp",
+    Github2:
+      "https://play.google.com/store/apps/details?id=com.stitchsuccessapp",
+  },
   {
     title: "Chat-App",
     description:
